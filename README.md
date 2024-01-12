@@ -9,7 +9,8 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g.,function_and_error). Copy and paste the following code into the file:
 
-// pragma solidity ^0.8.23;
+ // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.23;
 
 contract TokenExchange {
     address public admin;
